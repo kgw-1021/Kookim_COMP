@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="wego" type="State.py" name="State" /> 
+  <node pkg="wego" type="Action.py" name="Action" /> 
+  <node pkg="wego" type="Obstacle_detector.py" name="Obstacle_detector" /> 
+  <node pkg="wego" type="navigation.py" name="navigation" /> 
+</launch>
